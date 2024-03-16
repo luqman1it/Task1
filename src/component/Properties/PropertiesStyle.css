@@ -1,0 +1,15 @@
+.properties-filter {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+
+.properties-filter div:nth-child(1) {
+    background-color: var(--main-color);
+}
+
+.properties-filter div:not(:first-child):hover {
+    color: red;
+}

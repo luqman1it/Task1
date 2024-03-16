@@ -1,0 +1,30 @@
+.home-contact {
+    padding-top: 120px;
+    position: relative;
+}
+
+.home-contact .container {
+    width: 100%;
+}
+
+.home-contact .contact-content {
+    margin-top: -30%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
+
+}
+
+.home-contact .contact-content .map {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.home-contact .contact-content .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}

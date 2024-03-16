@@ -1,0 +1,27 @@
+.accordion {
+    background-color: #fafafa;
+    padding: 0px 20px;
+    border-radius: 10px;
+
+}
+
+.accordion .accordion-header {
+
+    padding: 20px 0px;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+    cursor: pointer;
+
+}
+
+
+.accordion .isActiveNow {
+    color: #ee626b;
+}
+
+.accordion .accorion-item p {
+    color: #212529;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    transition: 2s;
+}

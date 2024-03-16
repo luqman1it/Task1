@@ -1,0 +1,9 @@
+.funfacts {
+    padding-top: 200px;
+}
+
+.funfacts .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

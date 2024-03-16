@@ -1,0 +1,32 @@
+.pagination {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.pagination li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.pagination li .is_active {
+    background-color: var(--main-color);
+}
+
+.pagination li a:hover {
+    background-color: var(--main-color);
+
+}

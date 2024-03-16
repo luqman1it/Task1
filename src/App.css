@@ -1,0 +1,68 @@
+/* Start Global Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+nav {
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #f35525;
+  --second-color: #ee626b;
+  --font-color: #1e1e1e;
+}
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.flexbet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+}
+
+@media (min-width:768px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+.orange {
+  color: var(--main-color);
+}
+
+/* End Global Rules */

@@ -1,0 +1,21 @@
+.IteamTableDeal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+
+}
+
+.IteamTableDeal:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.IteamTableDeal h4 {
+    font-size: 15px;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+.IteamTableDeal h3 {
+    font-size: 20px;
+    color: #1e1e1e
+}

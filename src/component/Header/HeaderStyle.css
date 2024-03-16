@@ -1,0 +1,113 @@
+.header {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 4;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .logo {
+    font-size: 15px;
+    color: #1e1e1e;
+    font-weight: 700;
+
+
+}
+
+.header .links-page {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header .links-page a {
+    font-size: 15px;
+    margin-right: 20px;
+    color: var(--font-color);
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+    letter-spacing: .25px;
+}
+
+.header .links-page a:hover {
+    color: var(--main-color);
+
+}
+
+.header .links-page a.active {
+    color: var(--main-color);
+}
+
+.burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.drop-down {
+    width: 80%;
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    padding: 10px;
+    background-color: #eeeaea;
+    text-align: center;
+    z-index: 12;
+    transform: translateX(-50%);
+    transition: 5s;
+
+
+}
+
+
+.drop-down .links-page-drop a {
+    display: block;
+    padding: 10px;
+    color: var(--font-color);
+}
+
+.drop-down nav.links-page-drop a:hover {
+    color: var(--font-color);
+
+}
+
+.drop-down .links-page-drop a:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.drop-down .links-page-drop a.active {
+    color: var(--second-color);
+}
+
+@media (max-width:991px) {
+    .header .links-page {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+
+}

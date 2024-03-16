@@ -1,0 +1,36 @@
+.fact {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+.fact::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    right: -25px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    top: -25px;
+}
+
+.fact h1 {
+    margin-right: 25px;
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.fact {
+    font-size: 16px;
+    color: var(--font-color);
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px 34px;
+}

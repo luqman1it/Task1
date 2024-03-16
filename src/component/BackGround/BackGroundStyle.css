@@ -1,0 +1,16 @@
+.background {
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+}
+
+.background .content-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

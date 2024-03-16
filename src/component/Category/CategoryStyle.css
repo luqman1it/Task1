@@ -1,0 +1,40 @@
+.category {
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 20%;
+}
+
+.category .title {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.category .title span:nth-child(2) {
+    color: #f35525;
+}
+
+.category .content h1 {
+    font-size: 62px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 30%;
+}
+
+@media (max-width:768px) {
+    .category .content h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .category {
+        left: 10%;
+    }
+}

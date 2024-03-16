@@ -1,0 +1,69 @@
+.bestdeal {
+    margin-top: 120px;
+    padding-top: 100px;
+    background-color: #fafafa;
+    min-height: 100vh;
+    padding-bottom: 120px;
+}
+
+.bestdeal-info {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(5, auto);
+    margin-top: 20px;
+}
+
+.bestdeal .container .topDeal {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:990px) {
+    .bestdeal .container .headDeal {
+        width: 100%;
+
+    }
+
+    .bestdeal .container .topDeal {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:991px) {
+    .bestdeal .container .headDeal {
+        width: 40%;
+
+    }
+
+}
+
+.image-deal {
+    grid-column: 2 / 5;
+}
+
+.image-deal img {
+    width: 100%;
+}
+
+.bestdeal .extra-info h4 {
+    margin-bottom: 30px;
+
+}
+
+.bestdeal .extra-info p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+
+}
+
+@media (max-width:990px) {
+    .bestdeal-info {
+        grid-template-columns: 100%;
+    }
+
+    .image-deal {
+        grid-column: 1;
+    }
+}

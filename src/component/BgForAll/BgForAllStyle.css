@@ -1,0 +1,24 @@
+.bg-for-all {
+    background-image: url('../../assets/images/page-heading-bg.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+}
+
+.second-title-pages span {
+    background-color: #fff;
+    padding: 10px 25px;
+    color: #1e1e1e;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.title-page h3 {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}

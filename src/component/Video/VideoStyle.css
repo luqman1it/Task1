@@ -1,0 +1,41 @@
+.video {
+    position: relative;
+    /* padding-bottom: 120px; */
+}
+
+.video .video-frame {
+    overflow: hidden;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translateX(-50%);
+}
+
+@media (max-width:768px) {
+    .video .video-frame {
+        bottom: 10px;
+    }
+}
+
+.video .video-frame img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.video .video-frame a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 18px;
+}

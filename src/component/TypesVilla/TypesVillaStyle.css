@@ -1,0 +1,18 @@
+.types-villa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width:768px) {
+    .types-villa {
+        flex-wrap: wrap;
+
+    }
+
+}
+
+.types-villa div:nth-child(1) {
+    background-color: var(--main-color);
+}

@@ -1,0 +1,44 @@
+.contact-us .container-us {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .contact-us-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.contact-us .contact-us-content p {
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(74, 74, 74);
+    margin-bottom: 30px;
+}
+
+.contact-us .form-contact-us {
+    width: 40%;
+}
+
+.contact-us .boxes-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width:768px) {
+    .contact-us .container-us {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-us .contact-us-content {
+        width: 100%;
+    }
+
+    .contact-us .form-contact-us {
+        width: 100%;
+    }
+}
