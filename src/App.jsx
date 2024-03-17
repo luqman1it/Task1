@@ -1,7 +1,6 @@
 
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { useState } from 'react';
 import Home from './component/Home/Home'
 import Properties from './component/Properties/Properties';
 import PropertDetails from './component/PropertDetails/PropertDetails'
@@ -13,7 +12,7 @@ function App() {
 
   return (
 
-    <div className="app">
+    <BrowserRouter basename='/Task1/' >
       <SubHeader />
       <Header />
       <Routes>
@@ -22,7 +21,7 @@ function App() {
         <Route path="/propertdetails" element={<PropertDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </div>
+    </BrowserRouter>
   )
 }
 
