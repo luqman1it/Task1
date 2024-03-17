@@ -27,7 +27,7 @@ export default function Header() {
                     <h1>VILLA</h1>
                 </div>
                 <nav className='links-page '>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/Task1">Home</NavLink>
                     <NavLink to="/properties">Properties</NavLink>
                     <NavLink to="/propertdetails">Propert Details</NavLink>
                     <NavLink to="/contact">Contact Us</NavLink>

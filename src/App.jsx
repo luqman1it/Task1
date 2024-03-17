@@ -15,7 +15,7 @@ function App() {
       <SubHeader />
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/Task1' element={<Home />} />
         <Route path="/properties" element={<Properties />} />
         <Route path="/propertdetails" element={<PropertDetails />} />
         <Route path="/contact" element={<Contact />} />
