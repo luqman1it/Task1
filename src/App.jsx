@@ -11,8 +11,7 @@ function App() {
 
 
   return (
-
-    <BrowserRouter basename='/Task1' >
+    <div className="app">
       <SubHeader />
       <Header />
       <Routes>
@@ -21,7 +20,8 @@ function App() {
         <Route path="/propertdetails" element={<PropertDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </div>
+
   )
 }
 
