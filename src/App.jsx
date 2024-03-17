@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-    <BrowserRouter basename='/Task1/' >
+    <BrowserRouter basename='/Task1' >
       <SubHeader />
       <Header />
       <Routes>

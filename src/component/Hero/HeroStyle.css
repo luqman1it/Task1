@@ -35,7 +35,12 @@
 
 }
 
-.hero span:hover {
+.hero .left:hover {
+    background-color: rgb(255 255 255 / 60%);
+    cursor: pointer;
+}
+
+.hero .right:hover {
     background-color: rgb(255 255 255 / 60%);
     cursor: pointer;
 }
