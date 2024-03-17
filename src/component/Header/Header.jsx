@@ -27,10 +27,10 @@ export default function Header() {
                     <h1>VILLA</h1>
                 </div>
                 <nav className='links-page '>
-                    <NavLink to="/Task1">Home</NavLink>
-                    <NavLink to="/properties">Properties</NavLink>
-                    <NavLink to="/propertdetails">Propert Details</NavLink>
-                    <NavLink to="/contact">Contact Us</NavLink>
+                    <NavLink to="/Task1/">Home</NavLink>
+                    <NavLink to="/Task1/properties">Properties</NavLink>
+                    <NavLink to="/Task1/propertdetails">Propert Details</NavLink>
+                    <NavLink to="/Task1/contact">Contact Us</NavLink>
                     <SheduleVisit icon="fa-solid fa-calendar calnderIcon" />
                 </nav>
                 {burger && <i class="fa-solid fa-bars bar burger-menu" onClick={onhandle}></i>}

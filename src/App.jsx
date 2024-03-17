@@ -15,10 +15,10 @@ function App() {
       <SubHeader />
       <Header />
       <Routes>
-        <Route path='/Task1' element={<Home />} />
-        <Route path="/properties" element={<Properties />} />
-        <Route path="/propertdetails" element={<PropertDetails />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path='/Task1/' element={<Home />} />
+        <Route path="/Task1/properties" element={<Properties />} />
+        <Route path="/Task1/propertdetails" element={<PropertDetails />} />
+        <Route path="/Task1/contact" element={<Contact />} />
       </Routes>
     </div>
 
